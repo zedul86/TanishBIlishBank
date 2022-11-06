@@ -1,0 +1,29 @@
+@media screen and (max-width:1585px) {
+    .nav__list{
+        flex-wrap: wrap;
+        
+    }
+    .list__item{
+        flex-basis: 40%;
+    }
+    .list__link_{
+        text-align: center;
+    }
+    .credit__wrap{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .value__cards{
+        flex-wrap: wrap;
+    }
+    .value__card{
+        flex-basis: 100%;
+    }
+    
+}
+@media screen and (max-width:780px) {
+    .header__wrap{
+        flex-direction: column;
+    }
+}
